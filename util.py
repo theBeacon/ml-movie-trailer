@@ -1,3 +1,7 @@
+"""
+    This modules contains the utilities code.
+"""
+
 import unicodecsv;
 
 def read_csv(file):

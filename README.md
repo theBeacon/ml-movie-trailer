@@ -1,6 +1,8 @@
 # Movie Trailer Site
-This site showcases movies with their trailers.
+This site showcases movies with their trailers. 
 
+Have a quick peek from the following link
+https://cdn.rawgit.com/theBeacon/ml-movie-trailer/1336a1cf/fresh_tomatoes.html
 
 ## Prerequisite 
 * Python 2.7
@@ -20,4 +22,4 @@ Site loads movie by reading metadata provided by `movie.csv` then webpage showca
 ```python movie_center.py```
 
 ## Adding a new movie
-Add a movie metadata in `movie.csv` and re-run the above command.
+Append a or more movies' metadata to `movie.csv` in format specified and re-run the above command.

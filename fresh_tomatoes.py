@@ -162,6 +162,7 @@ movie_tile_content = '''
 # label to tag movie
 movie_genre = '<span class="label {genre}">{genre}</span>'
 
+
 def create_movie_tiles_content(movies):
     """creates movies tiles based upon the template given"""
 
@@ -177,6 +178,7 @@ def create_movie_tiles_content(movies):
         )
     return content
 
+
 def tag_movie(movie):
     """creates bootstrap labels for the movie"""
 
@@ -184,6 +186,7 @@ def tag_movie(movie):
     for genre in movie.genres:
         content += movie_genre.format(genre=genre)
     return content
+
 
 def open_movies_page(movies):
     """ open the movie page in the default browser """

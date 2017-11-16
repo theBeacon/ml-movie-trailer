@@ -6,6 +6,7 @@ import util
 from fresh_tomatoes import open_movies_page
 from movie import Movie
 
+
 def main():
     """ load the movies meta-data from the csv and \
         objectify them and showcase the site """
@@ -19,12 +20,10 @@ def main():
         movie_genres = [] if 'genres' not in raw_movie \
                       else raw_movie['genres'].split('|')
 
-        movies.append(Movie(raw_movie['title'], \
-                         raw_movie['poster'], \
-                         raw_movie['trailer'], \
-                         movie_genres))
-
-
+        movies.append(Movie(raw_movie['title'],
+                      raw_movie['poster'],
+                      raw_movie['trailer'],
+                      movie_genres))
     # open the webpage with movies
     open_movies_page(movies)
 

@@ -2,7 +2,8 @@
     This modules contains the utilities code.
 """
 
-import unicodecsv;
+import unicodecsv
+
 
 def read_csv(file):
     """ loads the csv as list of dictionary from the specfied file """
